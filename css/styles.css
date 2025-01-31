@@ -29,18 +29,34 @@ address {
   font-weight: 500;
   font-style: normal;
 }
+
+/* #region hero */
+.hero {
+  background-color: #2e2f42;
+}
 .hero h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 56px;
-  line-height: 60px;
-  letter-spacing: 2%;
+
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
-.hero button {
+
+.hero-button {
   background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
-.hero button:hover {
+.hero-button:hover {
   background-color: #404bbf;
 }
+/* #endregion hero */
+
 .logotype {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -98,4 +114,12 @@ address {
 .mailto:focus {
   letter-spacing: 0.02em;
   color: #404bbf;
+}
+
+.section-feature {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
