@@ -41,7 +41,7 @@ a {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   letter-spacing: 3%;
-  line-height: 21px;
+  line-height: 1.17
   color: #2e2f42; /*navy blue*/
   font-weight: bold;
   text-transform: uppercase;
@@ -59,6 +59,7 @@ a {
   color: #2e2f42;
 }
 
-.mainAdress {
+.main-adress {
   color: #434455; /*slate*/
+   font-style: normal;
 }
