@@ -1,7 +1,11 @@
 body {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: 'Roboto', sans-serif;
   background-color: white;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 li {
   list-style: none;
@@ -33,4 +37,29 @@ a {
 }
 .hero button:hover {
   background-color: #404bbf;
+}
+.logotype {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  letter-spacing: 3%;
+  line-height: 21px;
+  color: #2e2f42; /*navy blue*/
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.logotype .logotype-phrase-web {
+  color: #4d5ae5; /*iris*/
+}
+
+.menuNav {
+  font-family: 'Roboto';
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+  font-weight: medium;
+  color: #2e2f42;
+}
+
+.mainAdress {
+  color: #434455; /*slate*/
 }
