@@ -13,6 +13,9 @@ li {
 a {
   text-decoration: none;
 }
+address {
+  font-style: normal;
+}
 .roboto {
   font-family: 'Roboto', serif;
   font-optical-sizing: auto;
@@ -47,9 +50,6 @@ a {
   font-weight: bold;
   text-transform: uppercase;
 }
-.logotype .logotype-phrase-web {
-  color: #4d5ae5; /*iris*/
-}
 
 .menu-nav {
   font-family: 'Raleway', sans-serif;
@@ -63,4 +63,39 @@ a {
 .main-adress {
   color: #434455; /*slate*/
   font-style: normal;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logotype .logotype-phrase-studio {
+  color: #2e2f42; /*navy blue*/
+}
+.menu-nav-li1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.menu-nav-li1:hover,
+.menu-nav-li1:focus {
+  color: #404bbf;
+}
+
+.mailto {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.mailto:hover,
+.mailto:focus {
+  letter-spacing: 0.02em;
+  color: #404bbf;
 }
