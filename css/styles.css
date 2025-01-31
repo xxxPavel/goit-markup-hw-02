@@ -52,7 +52,7 @@ address {
   color: #ffffff;
   cursor: pointer;
 }
-.hero-button:hover {
+.hero-button button:hover {
   background-color: #404bbf;
 }
 /* #endregion hero */
