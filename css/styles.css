@@ -1,0 +1,36 @@
+body {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.roboto {
+  font-family: 'Roboto', serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+.raleway {
+  font-family: 'Raleway', serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.hero h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+}
+.hero button {
+  background-color: #4d5ae5;
+}
+.hero button:hover {
+  background-color: #404bbf;
+}
