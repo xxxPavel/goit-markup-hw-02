@@ -74,7 +74,7 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logotype .logotype-phrase-studio {
+.logotype-phrase-studio {
   color: #2e2f42; /*navy blue*/
 }
 .menu-nav-li1 {
@@ -84,8 +84,8 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-nav-li1:hover,
-.menu-nav-li1:focus {
+.menu-nav-li-a:hover,
+.menu-nav-li-a:focus {
   color: #404bbf;
 }
 
